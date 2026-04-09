@@ -14,11 +14,27 @@ Aplikasi ini memungkinkan pengguna menampilkan objek 3D melalui kamera perangkat
 
 ---
 
+## Struktur Project
+- `/fix` → Berisi hasil build WebGL (deploy-ready)
+- `/Assets` → Asset Unity (model, script, dll)
+- `/ProjectSettings` → Konfigurasi project Unity
+- `/QR` → Marker yang digunakan untuk AR
+
+---
+
 ## Cara Kerja
 - Aplikasi mengakses kamera melalui browser
 - Marker dideteksi menggunakan Zappar
 - Objek 3D ditampilkan di atas marker
 - User dapat berinteraksi (rotate objek)
+
+---
+
+## Marker (QR / Image Target)
+
+Gunakan marker berikut untuk menjalankan AR:
+
+![Marker AR](QR/marker.png)
 
 ---
 
@@ -30,9 +46,9 @@ Aplikasi ini memungkinkan pengguna menampilkan objek 3D melalui kamera perangkat
 ---
 
 ## Cara Menjalankan
-1. Buka link hosting melalui browser mobile
+1. Buka link demo melalui browser mobile
 2. Izinkan akses kamera
-3. Arahkan kamera ke marker
+3. Arahkan kamera ke marker (QR di atas)
 4. Interaksikan objek dengan gesture sentuh
 
 ---
@@ -49,6 +65,9 @@ Jika diperlukan komunikasi:
 ## Catatan
 - AR berbasis WebGL bergantung pada dukungan browser
 - Performa dapat berbeda tergantung perangkat
+- Pastikan menggunakan browser modern (Chrome / Safari)
+
+---
 
 ## Demo
 
