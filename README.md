@@ -49,3 +49,7 @@ Jika diperlukan komunikasi:
 ## Catatan
 - AR berbasis WebGL bergantung pada dukungan browser
 - Performa dapat berbeda tergantung perangkat
+
+## Demo
+
+[Link Demo AR](https://elaborate-entremet-53e20f.netlify.app/)
