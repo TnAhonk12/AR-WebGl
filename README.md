@@ -34,7 +34,7 @@ Aplikasi ini memungkinkan pengguna menampilkan objek 3D melalui kamera perangkat
 
 Gunakan marker berikut untuk menjalankan AR:
 
-![Marker AR](QR/marker.png)
+![Marker AR](QR.jpeg)
 
 ---
 
